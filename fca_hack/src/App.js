@@ -4,7 +4,8 @@ import {
   Route,
 } from 'react-router-dom';
 import WeatherHome from './Components/WeatherHome';
-import Homepage from './Components/Homepage'
+import Homepage from './Components/Homepage';
+import YourID from './Components/YourIdentity';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Router>
         <Route path='/' component={WeatherHome} exact />
         <Route path='/Homepage' component={Homepage}/>
-      </Router>
+        <Route path='/yourID' component={YourID} />
+      </Router> 
     </div>
   );
 }

@@ -1,0 +1,31 @@
+.yourIdContainer{
+    display: grid;
+    grid-template-rows: 69px 8cm ;
+    width: 100vw;
+}
+
+.yourIdNavBar{
+    grid-row: 1;
+    background-color: #292929;
+    display: flex;
+    align-self: start;
+}
+
+.yourIdTitle{
+    grid-row: 2;
+    background-image: url('titleImage.jpg') ;
+    background-size: 100vw;
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 1px 2px #000000;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    padding: 24px;
+}
+
+.yourIdContent{
+    grid-row: 3;
+    text-align: start;
+    padding: 24px;
+}
